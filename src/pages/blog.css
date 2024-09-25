@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .blog-details-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-details-header {
+    margin-bottom: 20px;
+  }
+  
+  .blog-details-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blog-details-content {
+    margin-bottom: 20px;
+  }
+  
+  .blog-details-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-details-content p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .loading-indicator {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
